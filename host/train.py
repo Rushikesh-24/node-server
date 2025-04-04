@@ -14,6 +14,7 @@ X = np.random.rand(1000, 10)
 y = np.random.rand(1000, 1)
 
 print("🚀 Training...")
-model.fit(X, y, epochs=3, batch_size=32)
-model.save('my_model.keras')
+model.fit(X, y, epochs=20, batch_size=32)
+# model.save('my_model.keras')
+
 print("✅ Done.")
